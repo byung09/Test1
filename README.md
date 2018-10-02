@@ -2,10 +2,8 @@
 ---
 
 ```
-<dl>
-  <dt>Markdown</dt>
-  <dd>Hello</dd>
-</dl>
+  > Markdown
+  >> Hello
 ```
 
 <dl> 
