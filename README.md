@@ -1,7 +1,2 @@
-1. list
-2. list
+#Git 명령어 정리
 
----
-
-* LIST
-* LIST
