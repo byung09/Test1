@@ -2,7 +2,7 @@
 ---
 
 <dl>
-  <dt>Markdown is **bold**</dt>
+  <dt>Markdown is <dl>**bold**</dl></dt>
    <dd>Hello</dd>
 </dl>
 
