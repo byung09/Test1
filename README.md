@@ -2,7 +2,7 @@
 ---
 
 <dl>
-  <dt>*  Markdown</dt>
+  <dt>- Markdown</dt>
    <dd>Hello</dd>
 </dl>
 
