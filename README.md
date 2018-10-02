@@ -2,5 +2,5 @@
 ---
 - git config - -global - -list
  
-  <dd>안녕하세요</dd> 
+  <dd>제 이름은 ㅇㅇㅇ </dd> 
 
