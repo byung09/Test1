@@ -2,5 +2,5 @@
 ---
  - git config - -global - -list
  
- <dd>제 이름은 ㅇㅇㅇ 입니다.</dd> 
+  <dd>제 이름은 ㅇㅇㅇ 입니다.</dd> 
 
