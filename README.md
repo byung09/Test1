@@ -2,13 +2,10 @@
 ---
 
 <dl>
-  <dt>Markdown</dt>
+  <dt>Markdown is **bold**</dt>
    <dd>Hello</dd>
 </dl>
 
 
-  Markdown
   
-  by hoa
- 
 
