@@ -1,14 +1,15 @@
 ## Git 명령어 정리
 ---
  
-```<dl>
+```
+<dl>
   <dt>Markdown</dt>
   <dd>by hoa</dd>
-   </dl>```  
+</dl>```  
  
  
- <dl> 
+<dl> 
   <dt>Markdown</dt>
   <dd>by hoa</dd>
- </dl> 
+</dl> 
 
