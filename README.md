@@ -2,5 +2,5 @@
 ---
 - git config - -global - -list
  
-  * 안녕하세요 
+ <dd>안녕하세요</dd> 
 
