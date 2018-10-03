@@ -3,7 +3,7 @@
 
   <dl>
   
-  <dt><li> &nbsp;      git config --global --unset-all user.email</li></dt>
+  <dt><li> &nbsp; &nbsp; git config --global --unset-all user.email</li></dt>
   <dd>: &nbsp; 전체 사용자 이메일을 삭제하는 명령어로 -all을 빼고 email 옆에 사용자이메일을 입력하면 사용자이메일을 설정하여 삭제하는 명령어. 
   </dd>
   
