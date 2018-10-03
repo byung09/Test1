@@ -4,7 +4,7 @@
   <dl>
   
   <dt><li> &nbsp; &nbsp; git config --global --unset-all user.email</li></dt>
-  <dd>: &nbsp; 전체 사용자 이메일을 삭제하는 명령어로 -all을 빼고 email 옆에 사용자이메일을 입력하면 사용자이메일을 설정하여 삭제하는 명령어. 
+  <dd>: &nbsp; 전체 사용자 이메일을 삭제하는 명령어로 -all을 빼고 email 옆에 사용자이메일을 입력하면 사용자이메일을 설정하여 <br>삭제하는 명령어. 
   </dd>
   
   <dt><li> &nbsp; &nbsp; git config --global --unset-all user.name</li></dt>
@@ -22,7 +22,7 @@
   <dl>
   
   <dt><li> &nbsp; &nbsp; git init</li></dt>
-  <dd>: &nbsp; cd를 이용하여 원하는 폴더로 이동후 폴더 기준으로 git이 활동할 수 있는 영역을 미리 만들어 주기위해 초기화(init)을 한다. 해당 폴더의 터미널에서 git init 명령어로 미리 환경을 구성해준다. 최초 한번만 해주면된다.
+  <dd>: &nbsp; cd를 이용하여 원하는 폴더로 이동후 폴더 기준으로 git이 활동할 수 있는 영역을 미리 만들어 주기위해 <br>초기화(init)을 한다. 해당 폴더의 터미널에서 git init 명령어로 미리 환경을 구성해준다. 최초 한번만 해주면된다.
   </dd>
   
   <dt><li> &nbsp; &nbsp; ls -al</li></dt>
@@ -30,7 +30,7 @@
   
   <dt><li> &nbsp; &nbsp; git clone <저장소url></li></dt>
   <dd>: &nbsp; 말그대로 해당 소스를 그대로 복제해온다는 의미로, git repository 전체를 가져온다
-clone과 pull의 차이점은 clone은 git repository전체를 가져오는것이고, pull은 파일만 가져온다는점이다.
+<br>clone과 pull의 차이점은 clone은 git repository전체를 가져오는것이고, pull은 파일만 가져온다는점이다.
   </dd>
   
   </dl>
@@ -47,7 +47,7 @@ clone과 pull의 차이점은 clone은 git repository전체를 가져오는것�
 
   <dl>
   <dt><li> &nbsp; &nbsp; git commit -m “<메시지>”</li></dt>
-  <dd>: &nbsp; add된 txt파일에 대해 변경사항을 적용하고 새로이 저장할 수 있다. git add후 수정을 했다면 commit전에 다시한번 add를 해야 커밋에 수정사항이 반영된다.
+  <dd>: &nbsp; add된 txt파일에 대해 변경사항을 적용하고 새로이 저장할 수 있다. git add후 수정을 했다면 commit전에 <br>다시한번 add를 해야 커밋에 수정사항이 반영된다.
   </dd>
   
   <dt><li> &nbsp; &nbsp;git commit -a</li></dt>
@@ -69,7 +69,7 @@ clone과 pull의 차이점은 clone은 git repository전체를 가져오는것�
   <dl>
   <dt><li> &nbsp; &nbsp; git remote add <원격 저장소> <저장소 url></li></dt>
   <dd>: &nbsp; 원격저장소를 관리할 수 있는 명령어로서, 원격저장소는 기본값이 origin이고 필요에 따라 다른이름을 주면된다. 
-remote하기전에는 현재 디렉토리가 init으로 저장소화 되어있어야한다.
+remote하기전에는 현재 디렉토리가 init으로 저장소화 되어있어야한다.<br>
 순서를 정하자면 init, add, commit, remote, push순으로 볼 수 있다.
   </dd>
     
