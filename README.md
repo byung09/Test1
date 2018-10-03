@@ -50,14 +50,7 @@ clone과 pull의 차이점은 clone은 git repository전체를 가져오는것�
   <dd>: &nbsp; add된 txt파일에 대해 변경사항을 적용하고 새로이 저장할 수 있다. git add후 수정을 했다면 commit전에 다시한번 add를 해야 커밋에 수정사항이 반영된다.
   </dd>
   
-  <dt><li> &nbsp; &nbsp; git commit -a</li></dt>
-  <dd>: &nbsp; 스테이지않된 상태의 파일까지 모두 스테이지 시킨후 함께 커밋한다.
-  </dd>
-  
-  <dt><li> &nbsp; &nbsp; git rm <파일명></li></dt>
-  <dd>: &nbsp; git에서 파일을 제거하며, 실제 디렉토리에서도 삭제가된다. 일반적인 방법으로 삭제를하게되면 파일은 삭제되어도 unstage항목에 계속 남아있게된다.
-  </dd>
-  
+  <dt><li> &nbsp; &nbsp
   <dt><li> &nbsp; &nbsp; git reset HEAD<파일명></li></dt>
   <dd>: &nbsp; 이미 stage된 파일을 다시 unstage하고싶을 때 사용한다. 
 파일을 unstage상태로 변경한다.
@@ -96,4 +89,11 @@ pull은 자동으로 내가 할 일을 대신 해준다고 생각하면된다.
       
 </dl>
 
-client.print("<font color='blue' size='24'>String");
+client.print("<font color='blue' size='24'>String");; git commit -a</li></dt>
+  <dd>: &nbsp; 스테이지않된 상태의 파일까지 모두 스테이지 시킨후 함께 커밋한다.
+  </dd>
+  
+  <dt><li> &nbsp; &nbsp; git rm <파일명></li></dt>
+  <dd>: &nbsp; git에서 파일을 제거하며, 실제 디렉토리에서도 삭제가된다. 일반적인 방법으로 삭제를하게되면 파일은 삭제되어도 unstage항목에 계속 남아있게된다.
+  </dd>
+  
