@@ -6,6 +6,7 @@
 </dl>
 
 <dl>
+  <li>기술소개</li>
   <dt>Markdown안녕</dt>
   <dd>호호호</dd>
 </dl>
