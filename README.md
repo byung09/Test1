@@ -89,7 +89,7 @@ pull은 자동으로 내가 할 일을 대신 해준다고 생각하면된다.
       
 </dl>
 
-client.print("<font color='blue' size='24'>String");; git commit -a</li></dt>
+  <dt><li> &nbsp; &nbsp;git commit -a</li></dt>
   <dd>: &nbsp; 스테이지않된 상태의 파일까지 모두 스테이지 시킨후 함께 커밋한다.
   </dd>
   
