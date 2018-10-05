@@ -1,6 +1,5 @@
 > # Git 명령어 
 &nbsp;
-
   <dl>
   
   <dt><li> &nbsp; &nbsp; git config --global --unset-all user.email</li></dt>
@@ -99,6 +98,7 @@ pull은 자동으로 내가 할 일을 대신 해준다고 생각하면된다.
 
 > # Markdown 문법
 <br>
+
 ## 2.1. 헤더Headers
 * 큰제목: 문서 제목
     ```
