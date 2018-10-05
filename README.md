@@ -104,15 +104,15 @@ pull은 자동으로 내가 할 일을 대신 해준다고 생각하면된다.
  <dt><li> Headers </li></dt>
  </dl>
  
-#Header1
-##Header2
-###Header3
-####Header4
-#####Header5
-######Header6
+# Header1
+## Header2
+### Header3
+#### Header4
+##### Header5
+###### Header6
 **Bold**
 *Emphasize*
-++Underline++
+++ Underline ++
 ~~Strikethrough~~
 ==Highlight==
 ^Superscript^
@@ -123,12 +123,15 @@ pull은 자동으로 내가 할 일을 대신 해준다고 생각하면된다.
 1. Ordered list
 [^id]
 [^id]:text
-`code`
+` code `
 ```block code```
 $$$inline math$$$
 |-| table
+
 *** page break
+
 --- section break
+
 ___ sentence break
 
 
