@@ -102,11 +102,8 @@ pull은 자동으로 내가 할 일을 대신 해준다고 생각하면된다.
  <dt><li> Headers </li></dt>
  </dl>
  
- ` # header `
+ ` 명령어 : # header <br> `
 
-*This text will be italic*
-
-_This will also be italic_
 
 
 
