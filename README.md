@@ -100,7 +100,7 @@ pull은 자동으로 내가 할 일을 대신 해준다고 생각하면된다.
 > # Markdown 문법
 <br>
 
-## Headers
+## 1. Headers
 <li>큰제목 ( 문서 제목 )</li><br>
 
 **명령어**
@@ -115,7 +115,7 @@ This is an H1
 This is an H1
 =============
 
-* 작은제목 ( 문서 부제목 )
+<li>작은제목 ( 문서 부제목 )</li><br>
 
 **명령어**
 
@@ -129,7 +129,7 @@ This is an H2
 This is an H2
 -------------
 
-* 글머리 ( 1~6까지만 지원 ) 
+<li>글머리 ( 1~6까지만 지원 )</li><br> 
 
 **명령어**
 
@@ -151,7 +151,9 @@ This is an H2
 ##### Header5
 ###### Header6
  
+---
 
+## 2. BlockQuote
 
 
 
