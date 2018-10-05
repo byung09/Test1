@@ -100,16 +100,22 @@ pull은 자동으로 내가 할 일을 대신 해준다고 생각하면된다.
 > # Markdown 문법
 <br>
 
-## 2.1. 헤더Headers
-* 큰제목: 문서 제목
+## Headers
+* 큰제목 ( 문서 제목 )
+
+**명령어**
+
     ```
     This is an H1
     =============
     ```
+    
+**결과**
+
     This is an H1
     =============
 
-* 작은제목: 문서 부제목
+* 작은제목 ( 문서 부제목 )
     ```
     This is an H2
     -------------
@@ -117,21 +123,21 @@ pull은 자동으로 내가 할 일을 대신 해준다고 생각하면된다.
     This is an H2
     -------------
 
-* 글머리: 1~6까지만 지원
+* 글머리 ( 1~6까지만 지원 ) 
 ```
-# This is a H1
-## This is a H2
-### This is a H3
-#### This is a H4
-##### This is a H5
-###### This is a H6
+# Header1
+## Header2
+### Header3
+#### Header4
+##### Header5
+###### Header6
 ```
-# This is a H1
-## This is a H2
-### This is a H3
-#### This is a H4
-##### This is a H5
-###### This is a H6
+# Header1
+## Header2
+### Header3
+#### Header4
+##### Header5
+###### Header6
  
 
 
