@@ -104,7 +104,13 @@ pull은 자동으로 내가 할 일을 대신 해준다고 생각하면된다.
  
  ` # header `
 
+*This text will be italic*
+_This will also be italic_
 
+**This text will be bold**
+__This will also be bold__
+
+_You **can** combine them_
 
 
 
