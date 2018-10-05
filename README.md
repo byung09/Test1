@@ -99,9 +99,9 @@ pull은 자동으로 내가 할 일을 대신 해준다고 생각하면된다.
 
 > # Markdown 문법
  &nbsp;
-
-## Headers
-*_큰제목: 문서 제목_*
+ 
+## 2.1. 헤더Headers
+* 큰제목: 문서 제목
     ```
     This is an H1
     =============
@@ -132,8 +132,6 @@ pull은 자동으로 내가 할 일을 대신 해준다고 생각하면된다.
 #### This is a H4
 ##### This is a H5
 ###### This is a H6
-####### This is a 7.
-
  
 
 
