@@ -457,4 +457,10 @@ This is *__combination__* string.
 
 ## 이미지
 
+**문법**
+```
+![Alt text](/path/to/img.jpg)
+```
+**결과**
+
 ![default](https://user-images.githubusercontent.com/42789897/46569315-6c7dac00-c942-11e8-9cf9-5463c0167972.jpg)
