@@ -288,12 +288,17 @@ blockqute문법안에서는 다른 마크다운 문법를 포함할 수 있다.
 
 ## 링크
 
-[Inline Link](https://www.naver.com/ "This is Link")
+인라인링크
 
+**문법**
+```
+[Inline Link](https://www.naver.com/ "This is Link")
+```
+**결과**
 [Reference Link][Link ID]
 [Link ID]: http://www.naver.com "THis is second Link."
 
-https://www.naver.com/ and <https://www.naver.com/> 또한 같다.
+https://www.naver.com/ 링크와 <https://www.naver.com/> 링크는 서로 같은링크이다. 
 
 ---
 
