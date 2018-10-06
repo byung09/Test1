@@ -273,6 +273,7 @@ blockqute문법안에서는 다른 마크다운 문법를 포함할 수 있다.
 *****
 
 - - -
+
 ---------------------------------------
 ```
 **결과**
@@ -282,8 +283,39 @@ blockqute문법안에서는 다른 마크다운 문법를 포함할 수 있다.
 *****
 - - -
 ---------------------------------------
-			
 
+---
+
+## 링크
+참조링크
+
+```
+[link keyword][id]
+[id]: URL "Optional Title here"
+
+Link: [Google][googlelink]
+[googlelink]: https://google.com "Go google"
+```
+
+Link: [Google][googlelink]
+[googlelink]: https://google.com "Go google"
+
+* 인라인 링크
+```
+syntax: [Title](link)
+```
+Link: [Google](https://google.com, "google link")
+
+* 자동연결
+```
+<http://example.com/>
+<address@example.com>
+```
+
+<http://example.com/>
+<address@example.com>
+						
+---
 
  
   
