@@ -306,18 +306,18 @@ blockqute문법안에서는 다른 마크다운 문법를 포함할 수 있다.
 [Link ID]: http://www.naver.com "THis is second Link."
 ```
 **결과**
-
-http://www.naver.com "THis is second Link."
+[Naver][naverlink]
+[naverlink]"http://www.naver.com "THis is second Link."
 
 자동연결링크
 
 **문법**
 ```
-https://www.naver.com/ 링크와 <https://www.naver.com/> 링크는 서로 같은링크이다.
+https://www.naver.com/ 문법과 <https://www.naver.com/> 문법은 서로 같은결과를 나타내는 링크문법이다.
 ```
 **결과**
 
-https://www.naver.com/ 링크와 <https://www.naver.com/> 링크는 서로 같은링크이다. 
+https://www.naver.com/ 문법과 <https://www.naver.com/> 문법은 서로 같은결과를 나타내는  
 
 ---
 
