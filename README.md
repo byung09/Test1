@@ -410,6 +410,8 @@ HTML코드를 이용할수있다.
 줄바꿈을 하고플때는 Enter키를 2번이상 눌러야한다. 1번 누를시 문장이 이어진다.
 **문법**
 ```
+---
+
 Apple1
 Apple2
 
@@ -453,10 +455,4 @@ This is *__combination__*string.
 
 ---
 
-## 이미지
-```
-![Alt text](/path/to/img.jpg)
-![Alt text](/path/to/img.jpg "Optional title")
-```
-![오버워치 로고](http://blog.naver.com/storyphoto/viewer.jsp?src=https%3A%2F%2Fblogfiles.pstatic.net%2F20141110_223%2Fremora1541_1415589776862rumJB_JPEG%2Flogo-burst.0bfPr.jpg)
-![오버워치 로고](http://blog.naver.com/storyphoto/viewer.jsp?src=https%3A%2F%2Fblogfiles.pstatic.net%2F20141110_223%2Fremora1541_1415589776862rumJB_JPEG%2Flogo-burst.0bfPr.jpg "overwatch")
+## 
