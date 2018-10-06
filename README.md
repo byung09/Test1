@@ -451,7 +451,7 @@ This is __bold__ string.
 
 This is ~~cancel~~ string.
 
-This is *__combination__*string.
+This is *_combination_*string.
 
 ---
 
