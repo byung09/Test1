@@ -287,34 +287,14 @@ blockqute문법안에서는 다른 마크다운 문법를 포함할 수 있다.
 ---
 
 ## 링크
-참조링크
 
-```
-[link keyword][id]
-[id]: URL "Optional Title here"
+[Inline Link](https://www.naver.com/ "This is Link")
 
-Link: [Google][googlelink]
-[googlelink]: https://google.com "Go google"
-```
+[Reference Link][Link Id]
+[Link ID]: https://www.naver.com "THis is second Link"
 
-Link: [Google][googlelink]
-[googlelink]: https://google.com "Go google"
+https://www.naver.com/ and <https://www.naver.com/> 또한 같다.
 
-* 인라인 링크
-```
-syntax: [Title](link)
-```
-Link: [Google](https://google.com, "google link")
-
-* 자동연결
-```
-<http://example.com/>
-<address@example.com>
-```
-
-<http://example.com/>
-<address@example.com>
-						
 ---
 
  
