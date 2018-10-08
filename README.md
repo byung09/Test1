@@ -202,7 +202,7 @@ This is an H2
 1. 첫번째 목록
 2. 두번째 목록
 3. 세번째 목록
-<br>
+</br>
 
 <dl><dt><li> &nbsp; &nbsp; 목록의 순서상관없이 순서는 내림차순으로 정의된다. </li></dt></dl>
 
@@ -263,6 +263,7 @@ This is an H2
             
 ```
 **결과 )**
+
 * 목록1
   - 목록2
     + 목록3
@@ -308,7 +309,6 @@ This is an H2
 **결과 )**
 
 [Inline Link](https://www.naver.com/ "This is Link")
-
 </br>
 
 <dl><dt><li> &nbsp; &nbsp; 참조링크 </li></dt></dl>
@@ -322,7 +322,6 @@ This is an H2
 
 [Naver][naverlink]
 [naverlink]"http://www.naver.com "THis is second Link."
-
 </br>
 
 <dl><dt><li> &nbsp; &nbsp; 자동연결링크 </li></dt></dl>
@@ -334,7 +333,6 @@ https://www.naver.com/ 문법과 <https://www.naver.com/> 문법은 서로 같�
 **결과 )**
 
 https://www.naver.com/ 문법과 <https://www.naver.com/> 문법은 서로 같은결과를 나타내는 링크문법이다. 
-
 </br>
 
 ---
@@ -425,12 +423,11 @@ this is table
 
 **결과 )**
 
-</dl>
+<dl>
   <dt>제목</dt>
   <dd>내용</dd>
 </dl>
-
-</br>
+<br>
 
 ---
 
