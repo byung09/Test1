@@ -308,6 +308,7 @@ This is an H2
 **결과 )**
 
 [Inline Link](https://www.naver.com/ "This is Link")
+
 </br>
 
 <dl><dt><li> &nbsp; &nbsp; 참조링크 </li></dt></dl>
@@ -321,6 +322,7 @@ This is an H2
 
 [Naver][naverlink]
 [naverlink]"http://www.naver.com "THis is second Link."
+
 </br>
 
 <dl><dt><li> &nbsp; &nbsp; 자동연결링크 </li></dt></dl>
@@ -331,7 +333,8 @@ https://www.naver.com/ 문법과 <https://www.naver.com/> 문법은 서로 같�
 ```
 **결과 )**
 
-https://www.naver.com/ 문법과 <https://www.naver.com/> 문법은 서로 같은결과를 나타내는  
+https://www.naver.com/ 문법과 <https://www.naver.com/> 문법은 서로 같은결과를 나타내는 링크문법이다. 
+
 </br>
 
 ---
@@ -381,7 +384,9 @@ var str = "javascript";
 ---
 
 ## 7. Table
-<dl><dt><li> &nbsp; &nbsp; `|` 기호와 `---` 기호를 사용하여 테이블을 만들수있다
+<dl><dt><li> &nbsp; &nbsp;
+ 
+` | `기호와 `---` 기호를 사용하여 테이블을 만들수있다 
   
 ( `---` 는 반드시 3개 이상이 되어야 구분자로 쓸수있다.)
 
@@ -424,6 +429,7 @@ this is table
   <dt>제목</dt>
   <dd>내용</dd>
 </dl>
+
 </br>
 
 ---
