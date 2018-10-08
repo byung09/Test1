@@ -115,6 +115,7 @@ This is an H1
 
 This is an H1
 =============
+&nbsp;
 
 <dl><dt><li> &nbsp; &nbsp; 작은제목 ( 문서 부제목 ) </li></dt></dl>
 
@@ -448,6 +449,7 @@ This is *__combination__*string.
 ```
 
 **결과 )**
+
 This is *italic* string.
 This is _italic_ string.
 
@@ -468,4 +470,5 @@ This is *__combination__* string.
 ```
 
 **결과 )**
+
 ![default](https://user-images.githubusercontent.com/42789897/46569315-6c7dac00-c942-11e8-9cf9-5463c0167972.jpg)
