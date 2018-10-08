@@ -101,7 +101,8 @@ pull은 자동으로 내가 할 일을 대신 해준다고 생각하면된다.
 &nbsp;
 
 ## 1. Headers
-<dl><dt><li> &nbsp; &nbsp; 큰제목 ( 문서 제목 )</li></dt></dl> 
+
+<dl><dt><li> &nbsp; &nbsp; 큰제목 ( 문서 제목 ) </li></dt></dl> 
 
 **명령어 )**
 
@@ -115,23 +116,23 @@ This is an H1
 This is an H1
 =============
 
-<li>작은제목 ( 문서 부제목 )</li><br>
+<dl><dt><li> &nbsp; &nbsp; 작은제목 ( 문서 부제목 ) </li></dt></dl>
 
-**명령어**
+**명령어 )**
 
 ```
 This is an H2
 -------------
 ```
     
-**결과**
+**결과 )**
     
 This is an H2
 -------------
 
-<li>글머리 ( 1~6까지만 지원 )</li><br> 
+<dl><dt><li> &nbsp; &nbsp; 글머리 ( 1~6까지만 지원 ) </li></dt></dl> 
 
-**명령어**
+**명령어 )**
 
 ```
 # Header1
@@ -142,7 +143,7 @@ This is an H2
 ###### Header6
 ```
 
-**결과**
+**결과 )**
 
 # Header1
 ## Header2
@@ -155,19 +156,19 @@ This is an H2
 
 ## 2. BlockQuote
 
-**명령어**
+**명령어 )**
 
 ```
 > blockqute 입니다.
 
 ```
-**결과**
+**결과 )**
 
 > blockqute 1개 사용입니다.
 >	> blockqute 2개 사용입니다.
 >	>	> blockqute 3개 사용입니다.
 
-blockqute문법안에서는 다른 마크다운 문법를 포함할 수 있다.
+<dl><dt><li> &nbsp; &nbsp; blockqute문법안에서는 다른 마크다운 문법를 포함할 수 있다. </li></dt></dl>
 
 **[ 예시 ]**
 
@@ -183,7 +184,7 @@ blockqute문법안에서는 다른 마크다운 문법를 포함할 수 있다.
 
 순서있는 목록은 숫자와 점을 사용한다.
 
-**명령어**
+**명령어 )**
 
 ```
 1. 첫번째 목록
@@ -191,17 +192,17 @@ blockqute문법안에서는 다른 마크다운 문법를 포함할 수 있다.
 3. 세번째 목록
 ```
 
-**결과**
+**결과 )**
 
 1. 첫번째 목록
 2. 두번째 목록
 3. 세번째 목록
 
-목록의 순서상관없이 순서는 내림차순으로 정의된다.
+<dl><dt><li> &nbsp; &nbsp; 목록의 순서상관없이 순서는 내림차순으로 정의된다. </li></dt></dl>
 
 **[ 예시 ]**
 
-**명령어**
+**명령어 )**
 
 ```
 1. 첫번째 목록
@@ -209,15 +210,15 @@ blockqute문법안에서는 다른 마크다운 문법를 포함할 수 있다.
 2. 두번째 목록
 ```
 
-**결과**
+**결과 )**
 
 1. 첫번째 목록
 3. 세번째 목록
 2. 두번째 목록
 
-순서없는 목록
+<dl><dt><li> &nbsp; &nbsp; 순서없는 목록 </li></dt></dl>
 
-**명령어**
+**명령어 )**
 
 ```
 * 목록1
@@ -230,7 +231,7 @@ blockqute문법안에서는 다른 마크다운 문법를 포함할 수 있다.
   - 목록2
 ```
 
-**결과**
+**결과 )**
 
 * 목록1
   * 목록2
@@ -241,11 +242,11 @@ blockqute문법안에서는 다른 마크다운 문법를 포함할 수 있다.
 - 목록1
   - 목록2
 
-목록문법들을 혼합하여 사용해도 적용된다.
+<dl><dt><li> &nbsp; &nbsp; 목록문법들을 혼합하여 사용해도 적용된다. </li></dt></dl>
 
 **[ 예시 ]**
 
-**명렁어**
+**명렁어 )**
 
 ```
 * 목록1
@@ -253,7 +254,7 @@ blockqute문법안에서는 다른 마크다운 문법를 포함할 수 있다.
     + 목록3
             
 ```
-**결과**
+**결과 )**
 * 목록1
   - 목록2
     + 목록3
@@ -261,9 +262,9 @@ blockqute문법안에서는 다른 마크다운 문법를 포함할 수 있다.
 ---
 
 ## 4. 수평선
-아래 줄은 모두 수평선을 만든다. 마크다운 문서를 출력할 때 페이지를 나누는 용도로 사용된다.
+<dl><dt><li> &nbsp; &nbsp; 아래 줄은 모두 수평선을 만든다. 마크다운 문서를 출력할 때 페이지를 나누는 용도로 사용된다. </li></dt></dl>
 
-**문법**
+**문법 )**
 
 ```
 * * *
@@ -276,7 +277,7 @@ blockqute문법안에서는 다른 마크다운 문법를 포함할 수 있다.
 
 ---------------------------------------
 ```
-**결과**
+**결과 )**
 
 * * *
 ***
@@ -286,88 +287,91 @@ blockqute문법안에서는 다른 마크다운 문법를 포함할 수 있다.
 
 ---
 
-## 링크
+## 5. 링크
 
-인라인링크
+<dl><dt><li> &nbsp; &nbsp; 인라인링크 </li></dt></dl>
 
-**문법**
+**문법 )**
 ```
 [Inline Link](https://www.naver.com/ "This is Link")
 ```
-**결과**
+**결과 )**
 
 [Inline Link](https://www.naver.com/ "This is Link")
 
-참조링크
+<dl><dt><li> &nbsp; &nbsp; 참조링크 </li></dt></dl>
 
-**문법**
+**문법 )**
 ```
 [Reference Link][Link ID]
 [Link ID]: http://www.naver.com "THis is second Link."
 ```
-**결과**
+**결과 )**
 
 [Naver][naverlink]
 [naverlink]"http://www.naver.com "THis is second Link."
 
-자동연결링크
+<dl><dt><li> &nbsp; &nbsp; 자동연결링크 </li></dt></dl>
 
-**문법**
+**문법 )**
 ```
 https://www.naver.com/ 문법과 <https://www.naver.com/> 문법은 서로 같은결과를 나타내는 링크문법이다.
 ```
-**결과**
+**결과 )**
 
 https://www.naver.com/ 문법과 <https://www.naver.com/> 문법은 서로 같은결과를 나타내는  
 
 ---
 
-## 구문강조
-single backtick을 사용하여 inline comde를 적용할수있다.
+## 6. 구문강조
+<dl><dt><li> &nbsp; &nbsp; single backtick을 사용하여 inline comde를 적용할수있다. </li></dt></dl>
 
-**문법**
+**문법 )**
 ```
 this is `inline code`
 ```
 
-**결과**
+**결과 )**
 
 this is `inline code`
 
-3개의 backtick을 사용하여 어떤 언어의 코드인지 명시할수있다.
+<dl><dt><li> &nbsp; &nbsp; 3개의 backtick을 사용하여 어떤 언어의 코드인지 명시할수있다. </li></dt></dl>
 
-**문법**
+**문법 )**
 
 ```
 ```javascript
 var str = "javascript";
 ```
 
-**결과**
+**결과 )**
 
 ```
 ```javascript
 var str = "javascript";
 ```
 
-4 space를 이용하여 3 backtick을 사용한것과 같은결과를 나태낼수있다.
+<dl><dt><li> &nbsp; &nbsp; 4 space를 이용하여 3 backtick을 사용한것과 같은결과를 나태낼수있다. </li></dt></dl>
 
-**문법**
+**문법 )**
 ```
     this is also code
 ```
 
-**결과**
+**결과 )**
 
     this is also code
     
 ---
 
-## Table
-|기호와 ---기호를 사용하여 테이블을 만들수있다(---는 반드시 3개 이상이 되어야 구분자로 쓸수있다.)
-(|기호는 생략이 가능하며, 다른 강조문법도 사용가능하다. 또한 :기호를 통해 정렬방식을 바꿀수있다.)
+## 7. Table
+<dl><dt><li> &nbsp; &nbsp; |기호와 ---기호를 사용하여 테이블을 만들수있다
+  
+(---는 반드시 3개 이상이 되어야 구분자로 쓸수있다.)
 
-**문법**
+(|기호는 생략이 가능하며, 다른 강조문법도 사용가능하다. 또한 :기호를 통해 정렬방식을 바꿀수있다.) </li></dt></dl>
+
+**문법 )**
 ```
 this is table
 
@@ -376,7 +380,7 @@ this is table
 | byung | 23  | Lv.96 |
 ```
 
-**결과**
+**결과 )**
 
 this is table
 
@@ -386,10 +390,10 @@ this is table
 
 ---
 
-## HTML코드
-HTML코드를 이용할수있다.
+## 8. HTML코드
+<dl><dt><li> &nbsp; &nbsp; HTML코드를 이용할수있다. </li></dt></dl>
 
-**문법**
+**문법 )**
 ```
 <dl>
   <dt>제목</dt>
@@ -397,7 +401,7 @@ HTML코드를 이용할수있다.
 </dl>
 ```
 
-**결과**
+**결과 )**
 
 </dl>
   <dt>제목</dt>
@@ -406,9 +410,10 @@ HTML코드를 이용할수있다.
 
 ---
 
-## 라인 분리
-줄바꿈을 하고플때는 Enter키를 2번이상 눌러야한다. 1번 누를시 문장이 이어진다.
-**문법**
+## 9. 라인 분리
+<dl><dt><li> &nbsp; &nbsp; 줄바꿈을 하고플때는 Enter키를 2번이상 눌러야한다. 1번 누를시 문장이 이어진다. </li></dt></dl>
+
+**문법 )**
 ```
 ---
 
@@ -418,7 +423,7 @@ Apple2
 Apple3
 ```
 
-**결과**
+**결과 )**
 
 Apple1
 Apple2
@@ -427,8 +432,9 @@ Apple3
 
 ---
 
-## 글자 강조
-**문법**
+## 10. 글자 강조
+
+**문법 )**
 ```
 This is *italic* string.
 This is _italic_ string.
@@ -441,8 +447,7 @@ This is ~~cancel~~ string.
 This is *__combination__*string.
 ```
 
-**결과**
-
+**결과 )**
 This is *italic* string.
 This is _italic_ string.
 
@@ -455,12 +460,12 @@ This is *__combination__* string.
 
 ---
 
-## 이미지
+## 11. 이미지
 
-**문법**
+**문법 )**
 ```
 ![Alt text](/path/to/img.jpg)
 ```
-**결과**
 
+**결과 )**
 ![default](https://user-images.githubusercontent.com/42789897/46569315-6c7dac00-c942-11e8-9cf9-5463c0167972.jpg)
