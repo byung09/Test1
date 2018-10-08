@@ -130,6 +130,7 @@ This is an H2
     
 This is an H2
 -------------
+&nbsp;
 
 <dl><dt><li> &nbsp; &nbsp; 글머리 ( 1~6까지만 지원 ) </li></dt></dl> 
 
@@ -152,7 +153,8 @@ This is an H2
 #### Header4
 ##### Header5
 ###### Header6
- 
+&nbsp;
+
 ---
 
 ## 2. BlockQuote
@@ -168,6 +170,7 @@ This is an H2
 > blockqute 1개 사용입니다.
 >	> blockqute 2개 사용입니다.
 >	>	> blockqute 3개 사용입니다.
+&nbsp;
 
 <dl><dt><li> &nbsp; &nbsp; blockqute문법안에서는 다른 마크다운 문법를 포함할 수 있다. </li></dt></dl>
 
@@ -198,6 +201,7 @@ This is an H2
 1. 첫번째 목록
 2. 두번째 목록
 3. 세번째 목록
+&nbsp;
 
 <dl><dt><li> &nbsp; &nbsp; 목록의 순서상관없이 순서는 내림차순으로 정의된다. </li></dt></dl>
 
@@ -216,6 +220,7 @@ This is an H2
 1. 첫번째 목록
 3. 세번째 목록
 2. 두번째 목록
+&nbsp;
 
 <dl><dt><li> &nbsp; &nbsp; 순서없는 목록 </li></dt></dl>
 
@@ -242,6 +247,7 @@ This is an H2
 
 - 목록1
   - 목록2
+&nbsp;
 
 <dl><dt><li> &nbsp; &nbsp; 목록문법들을 혼합하여 사용해도 적용된다. </li></dt></dl>
 
@@ -259,7 +265,8 @@ This is an H2
 * 목록1
   - 목록2
     + 목록3
-    
+&nbsp;
+
 ---
 
 ## 4. 수평선
@@ -285,6 +292,7 @@ This is an H2
 *****
 - - -
 ---------------------------------------
+&nbsp;
 
 ---
 
@@ -299,6 +307,7 @@ This is an H2
 **결과 )**
 
 [Inline Link](https://www.naver.com/ "This is Link")
+&nbsp;
 
 <dl><dt><li> &nbsp; &nbsp; 참조링크 </li></dt></dl>
 
@@ -311,6 +320,7 @@ This is an H2
 
 [Naver][naverlink]
 [naverlink]"http://www.naver.com "THis is second Link."
+&nbsp;
 
 <dl><dt><li> &nbsp; &nbsp; 자동연결링크 </li></dt></dl>
 
@@ -321,6 +331,7 @@ https://www.naver.com/ 문법과 <https://www.naver.com/> 문법은 서로 같�
 **결과 )**
 
 https://www.naver.com/ 문법과 <https://www.naver.com/> 문법은 서로 같은결과를 나타내는  
+&nbsp;
 
 ---
 
@@ -335,6 +346,7 @@ this is `inline code`
 **결과 )**
 
 this is `inline code`
+&nbsp;
 
 <dl><dt><li> &nbsp; &nbsp; 3개의 backtick을 사용하여 어떤 언어의 코드인지 명시할수있다. </li></dt></dl>
 
@@ -351,6 +363,7 @@ var str = "javascript";
 ```javascript
 var str = "javascript";
 ```
+&nbsp;
 
 <dl><dt><li> &nbsp; &nbsp; 4 space를 이용하여 3 backtick을 사용한것과 같은결과를 나태낼수있다. </li></dt></dl>
 
@@ -362,7 +375,8 @@ var str = "javascript";
 **결과 )**
 
     this is also code
-    
+&nbsp;
+
 ---
 
 ## 7. Table
@@ -388,6 +402,7 @@ this is table
 | Name  | age | level |
 |-------|:---:|------:|
 | byung | 23  | Lv.96 |
+&nbsp;
 
 ---
 
@@ -408,6 +423,7 @@ this is table
   <dt>제목</dt>
   <dd>내용</dd>
 </dl>
+&nbsp;
 
 ---
 
@@ -430,6 +446,7 @@ Apple1
 Apple2
 
 Apple3
+&nbsp;
 
 ---
 
@@ -459,6 +476,7 @@ This is __bold__ string.
 This is ~~cancel~~ string.
 
 This is *__combination__* string.
+&nbsp;
 
 ---
 
@@ -472,3 +490,4 @@ This is *__combination__* string.
 **결과 )**
 
 ![default](https://user-images.githubusercontent.com/42789897/46569315-6c7dac00-c942-11e8-9cf9-5463c0167972.jpg)
+&nbsp;
