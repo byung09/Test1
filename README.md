@@ -309,6 +309,7 @@ This is an H2
 **결과 )**
 
 [Inline Link](https://www.naver.com/ "This is Link")
+
 </br>
 
 <dl><dt><li> &nbsp; &nbsp; 참조링크 </li></dt></dl>
@@ -322,6 +323,7 @@ This is an H2
 
 [Naver][naverlink]
 [naverlink]"http://www.naver.com "THis is second Link."
+
 </br>
 
 <dl><dt><li> &nbsp; &nbsp; 자동연결링크 </li></dt></dl>
@@ -333,6 +335,7 @@ https://www.naver.com/ 문법과 <https://www.naver.com/> 문법은 서로 같�
 **결과 )**
 
 https://www.naver.com/ 문법과 <https://www.naver.com/> 문법은 서로 같은결과를 나타내는 링크문법이다. 
+
 </br>
 
 ---
@@ -348,6 +351,7 @@ this is `inline code`
 **결과 )**
 
 this is `inline code`
+
 </br>
 
 <dl><dt><li> &nbsp; &nbsp; 3개의 backtick을 사용하여 어떤 언어의 코드인지 명시할수있다. </li></dt></dl>
@@ -361,7 +365,6 @@ var str = "javascript";
 
 **결과 )**
 
-```
 ```javascript
 var str = "javascript";
 ```
@@ -450,6 +453,7 @@ Apple1
 Apple2
 
 Apple3
+
 </br>
 
 ---
@@ -480,6 +484,7 @@ This is __bold__ string.
 This is ~~cancel~~ string.
 
 This is *__combination__* string.
+
 </br>
 
 ---
