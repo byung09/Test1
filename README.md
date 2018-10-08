@@ -104,14 +104,14 @@ pull은 자동으로 내가 할 일을 대신 해준다고 생각하면된다.
 
 <dl><dt><li> &nbsp; &nbsp; 큰제목 ( 문서 제목 ) </li></dt></dl> 
 
-**명령어  ]**
+**명령어 &nbsp; ]**
 
 ```
 This is an H1
 =============    
 ```
     
-**결과  ]**
+**결과&nbsp;]**
 
 This is an H1
 =============
@@ -119,7 +119,7 @@ This is an H1
 
 <dl><dt><li> &nbsp; &nbsp; 작은제목 ( 문서 부제목 ) </li></dt></dl>
 
-**명령어  ]**
+**명령어&nbsp;&nbsp;]**
 
 ```
 This is an H2
