@@ -101,7 +101,7 @@ pull은 자동으로 내가 할 일을 대신 해준다고 생각하면된다.
 &nbsp;
 
 ## 1. Headers
-<dl><dt><li> &nbsp; &nbsp; 큰제목 ( 문서 제목 )</li></dt></dl> <br>
+<dl><dt><li> &nbsp; &nbsp; 큰제목 ( 문서 제목 )</li></dt></dl> 
 
 **명령어**
 
